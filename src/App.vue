@@ -1,6 +1,8 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <MyTable/>
+  <MyTable :counters="100" />
+ 
+  
 </template>
 
 <script>
